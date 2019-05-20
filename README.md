@@ -4,25 +4,27 @@ Launch samples from Ableton Drum rack using M4L and PS4 controller.
 # Max 4 live basics
 Max for Live is an add-on for Ableton Live that allows you to create instruments, audio effects, and MIDI devices. It can also be used to extend the functionality of hardware controllers and modify clips and parameters within a Live Set.
 
-Resources to learn Max for Live:
+## Resources to learn Max for Live:
 
 https://www.ableton.com/en/manual/max-for-live/
 https://docs.cycling74.com/max5/vignettes/intro/doclive.html
 Built-in documentation
-Basic typology
+## Basic typology
+
 A max patcher is a max document. The building blocks of a patcher are: the object, the message and the comment
 
 Objects perform command actions within a patcher.
 Messages allow us to create messages that can be sent to the objects.
 Comments allow us to document our patchers to make them easier to understand and revisit our work.
-Object box
+
+### Object box
 An object box is the basic logic element of Max – they contain functions that perform a task, and operate like miniature programs within the larger environment. They can be recognized by their bottom and top outline.
 
-Message box
+### Message box
 Message boxes contain some information (called a message) that can be sent to objects, and can operate as either commands or control data. They can be recognized by their gray background, and do not have an outline.
 
 
-Comment box
+### Comment box
 Comment boxes are used to add text for labeling controls, or for adding comments to your patcher for documentation purposes. They appear to have no background.
 
 Max programs function by passing messages between objects. Object boxes can be connected to one another, and message boxes can be used to originate or process messages that are used to control other objects.
